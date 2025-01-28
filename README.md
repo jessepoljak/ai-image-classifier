@@ -20,6 +20,11 @@
 --------------------------------------------
 
 
+"The dataset consists of authentic images sampled from the Shutterstock platform across various categories, including a balanced selection where one-third of the images feature humans. These authentic images are paired with their equivalents generated using state-of-the-art generative models. This structured pairing enables a direct comparison between real and AI-generated content, providing a robust foundation for developing and evaluating image authenticity detection systems." (Kaggle)
+
+https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset
+
+
 
 ### **Preprocessing**
 
@@ -38,5 +43,5 @@
 
 ### **Conclusions** 
 
-
-![]()
+### **License**
+[Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
