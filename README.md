@@ -1,5 +1,3 @@
-# ai-image-classifier
-
 
 # AI-image-classifier
 ## Artificial Intelligence Generated Images VS. Human Generated Images
