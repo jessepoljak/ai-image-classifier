@@ -24,7 +24,10 @@
 
 https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset
 
+### **Goal**
 
+Our goal is to develop a model that classifies images as AI generated or 'real' using the dataset of 40k AI and 40k real.
+This model that will help differentiate between human and machine created visuals. 
 
 ### **Preprocessing**
 
