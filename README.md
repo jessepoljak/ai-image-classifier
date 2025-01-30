@@ -11,11 +11,11 @@
 |     Image Authenticity Issue         |     Model Marketed For All Users          |  Current Need For Detection      |
 |--------------------------------------|:-----------------------------------------:|---------------------------------:|
 |     News articles with images        |     User inputs image in question         | Preserving journalism            |
-|        Crime scene images            |  Identify level of image manipulation     | Forensic acuracy                 |
+|        Crime scene images            |  Identify level of image manipulation     | Forensic accuracy                 |
 |        Social Media Images           | Easy image input for all levels of users  | Cultural Authenticity            |
 |        Scientific Reports            |      Instant results for the user         | Stability of the Sciences        |
 |     Marketing and Advertising        |      Applicable on all platforms          | Consumer Protect (FTC)           |
-|     Campaign or promotion images     | Easy to share results for fact checking   | Fair and Just campaings          |
+|     Campaign or promotion images     | Easy to share results for fact checking   | Fair and Just campaigns          |
 
 --------------------------------------------
 
