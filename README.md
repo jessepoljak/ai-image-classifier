@@ -123,7 +123,7 @@ Loads data from ai_image_classifier_small_img.pkl.
 - The trained model is evaluated using the test dataset to measure accuracy and loss.
 
 ---
-## **Gradio Interface (`GradioImageClassifier.ipynb`)
+## **Gradio Interface** (`GradioImageClassifier.ipynb`)
 
 ### 1. Load the Trained Model
 - The trained model is downloaded and loaded using TensorFlow.
@@ -139,7 +139,7 @@ Loads data from ai_image_classifier_small_img.pkl.
    - Label output displaying classification results
    - Simple UI with title and description
 ---
-## **Results
+## **Results**
 ### Predictive Analysis and Classification Threshold
 
 Applying our trained model to classify images, we optimized the decision-making process by setting a standard rounding function (`> 0.5`).
