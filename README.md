@@ -99,6 +99,32 @@ import tensorflow as tf
 - The dataset can be reloaded later using pickle.
 
 ---
+## **Hyperparameter Tuning** (`ai_image_classifier_hyperparameter_tuning.ipynb`)
+### 1. Load Preprocessed Data
+Loads data from ai_image_classifier_small_img.pkl
+
+### 2. Create function for model parameters.
+Accepts arguments defined when the evaluator is called.
+
+### 3. Parameters and call the evaluator
+Parameters defined and their ranges are:
+- 'neurons': (10, 100)
+- 'filter1': (32, 64)
+- 'filter2': (32, 64)
+- 'activation':(0, 9)
+- 'optimizer':(0,7)
+- 'learning_rate':(0.01, 0.10)
+- 'batch_size':(32, 200)
+- 'epochs':(10, 20)
+- 'layers1':(1,3)
+- 'layers2':(1,3)
+- 'normalization':(0,1)
+- 'dropout':(0,1)
+- 'dropout_rate':(0,0.3)
+
+The evaluator is Bayesian Optimization.
+
+---
 ## **Model Implementation** (`ai_image_classifier_model.ipynb`)
 ### 1. Load Preprocessed Data
 Loads data from ai_image_classifier_small_img.pkl.
@@ -111,11 +137,11 @@ Loads data from ai_image_classifier_small_img.pkl.
   - Conv2D layers with ReLU activation
   - MaxPooling layers for dimensionality reduction
   - Fully connected Dense layers
-  - Output layer with softmax activation (binary classification)
+  - Output layer with sigmoid activation (binary classification)
   
 ### 4. Compile and Train the Model
-- Optimizer: Adam
-   - Loss function: Sparse categorical crossentropy
+- Optimizer: Adagrad
+   - Loss function: Binary Crossentropy
    - Epochs: 10
    - Validation data used during training
   
